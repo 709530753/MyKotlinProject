@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_vpn_rules"
+            android:icon="@mipmap/pic_channel_bg"
+            android:enabled="false"
+            android:title="Route"/>
+
+        <item
+            android:id="@+id/nav_allow_app"
+            android:icon="@mipmap/pic_channel_bg"
+            android:enabled="false"
+            android:title="Allowed Applications"/>
+        <item
+            android:id="@+id/nav_Disallow_app"
+            android:icon="@mipmap/pic_channel_bg"
+            android:enabled="false"
+            android:title="Disallowed Applications"/>
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item android:id="@+id/nav_upload_log"
+                android:visible="false"
+                android:icon="@mipmap/pic_channel_bg"
+                android:title="Upload Log File"/>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@mipmap/pic_channel_bg"
+                android:title="Feedback"/>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/pic_channel_bg"
+                android:title="About us"/>
+
+        </menu>
+    </item>
+
+</menu>

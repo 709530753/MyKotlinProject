@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.fengxin.mykotlinproject.NocAboutActivity"
+        tools:showIn="@layout/app_bar_main">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:id="@+id/about_logo"
+                    android:drawableTop="@drawable/ic_launcher_background"
+                    android:drawablePadding="32dp"
+                    android:layout_margin="46dp"
+                    android:textColor="@color/black"
+                    android:lineSpacingExtra="10sp"
+                    android:text="@string/about_info_detail"
+                    tools:text="风信云路由系统,让您随时随地从外部公网访问家庭内网、公司内网独特的云中继架构，为您带来全新的移动连接体验,设备和内网之间的连接采用 AES 128 端到端加密，确保数据的完整性和机密性。"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/about_logo"
+                    android:id="@+id/about_split_vertical_line"
+                    android:background="@color/white"
+                    android:layout_margin="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/about_split_vertical_line"
+                    android:layout_marginTop="36dp"
+                    android:layout_alignRight="@+id/about_logo"
+                    android:layout_alignEnd="@+id/about_logo"
+                    android:layout_alignStart="@+id/about_logo"
+                    android:text="Software Verson"
+                    android:id="@+id/about_software_vierson_label" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

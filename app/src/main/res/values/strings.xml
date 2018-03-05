@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">风信云路由</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="about_info_detail">风信云路由系统,让您随时随地从外部公网访问家庭内网、公司内网独特的云中继架构，为您带来全新的移动连接体验,设备和内网之间的连接采用 AES 128 端到端加密，确保数据的完整性和机密性。</string>
+
+</resources>
